@@ -1,141 +1,159 @@
-<footer class="footer widget-footer bg-base-dark text-base-white clearfix">
-    <div class="cmt-row-wrapper-bg-layer cmt-bg-layer"></div>
-    <div class="second-footer">
+<footer class="footer-one">
+    <div class="footer-one__bg" style="background-image: url({{ asset('data/footer.jpg') }})">
+    </div>
+    <div class="shape1 float-bob-x">
+        <img src="{{ asset('assets/images/shapes/footer-v1-shape1.png') }}" alt="#">
+    </div>
+    <div class="shape2 float-bob-y">
+        <img src="{{ asset('assets/images/shapes/footer-v1-shape2.png') }}" alt="#">
+    </div>
+    <div class="shape3 float-bob-y">
+        <img src="{{ asset('assets/images/shapes/footer-v1-shape3.png') }}" alt="#">
+    </div>
+    <div class="shape4 float-bob-x">
+        <img src="{{ asset('assets/images/shapes/footer-v1-shape4.png') }}" alt="#">
+    </div>
+
+    <div class="footer-one__top">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 widget-area">
-                    <div class="widget widget_text clearfix">
-                        <div class="footer-logo">
-                            <img id="footer-logo-img" class="img-fluid auto_size" height="42" width="132"
-                                src="{{ asset('data/logo.png') }}" alt="image">
+
+                <div class="col-xl-3 col-lg-3 col-md-3 wow animated fadeInUp" data-wow-delay="0.1s">
+                    <div class="footer-one__single footer-one__about">
+                        <div class="title-box">
+                            <h3>
+                                Contact Us
+                            </h3>
                         </div>
-                        <div class="textwidget widget-text">
-                            <p style="text-align: justify">
-                                PAING HTET SAN RECRUITMENT CO., LTD. has been operation 29.9.2022. The company’s mission
-                                has
-                                always been to provide good services and stable employment that overseas job especially
-                                Malaysia.
-                            </p>
-                        </div>
-                        <div class="widget_social_wrapper social-icons pt-40">
-                            <h3 class="fs-18 mb-25">Social Info</h3>
-                            <ul class="list-inline">
-                                <li>
-                                    <a href="#" rel="noopener" aria-label="facebook"><i class="icon-facebook"></i>
-                                    </a>
+
+                        <div class="footer-one__about-text">
+                            <ul class="footer-one__links-list">
+                                <li style="color: white;">
+                                    No(1078), Maharbandoola St, 44 Quarter, North Dagon Township,
+                                    Yangon, Myanmar
                                 </li>
+
                                 <li>
-                                    <a href="#" rel="noopener" aria-label="twitter"><i class="icon-twitter"></i>
+                                    <a href="tel:(+959) 448 033 414" style="color: white">
+                                        (+959) 448 033 414
                                     </a>
-                                </li>
-                                <li>
-                                    <a href="#" rel="noopener" aria-label="linkedin"><i class="icon-linkedin"></i>
+                                    <a href="tel:(+959) 254 271 529" style="color: white">
+                                        (+959) 254 271 529
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+                <!--End Footer One Single-->
 
-
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 widget-area">
-                    <div class="widget widget_cta clearfix">
-                        <h4>
-                            09-250005508
-                        </h4>
-                        <ul class="widget_contact_wrapper">
-                            <li>
-                                <i class="flaticon-envelope"></i>
-                                <a href="mailto:info@painghtetsancompany.com">
-                                    info@painghtetsancompany.com
-                                </a>24 x 7
-                                Online Support
-                            </li>
-                            <li>
-                                <i class="flaticon-pin"></i>
-                                No.928, Meggan Street, 140Qtr, South Dragon Tsp, Yangon, Myanmar.
-                            </li>
-                        </ul>
-                        <div class="">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.678255717861!2d96.12192147103802!3d16.84231024849354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1951525f0a0ab%3A0x9896bdc061a99205!2sKMail%20Software%20Development%20Co.%2CLtd!5e0!3m2!1sen!2smm!4v1690199115627!5m2!1sen!2smm"
-                                width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 widget-area">
-                    <div class="widget multi_widget clearfix">
-                        <div class="newsletter_widget clearfix">
-                            <h3 class="widget-title">
-                                Keep in Touch
+                <div class="col-xl-3 col-lg-3 col-md-3 wow animated fadeInUp" data-wow-delay="0.3s">
+                    <div class="footer-one__single footer-one__links">
+                        <div class="title-box">
+                            <h3>
+                                Quick Links
                             </h3>
-                            <p>
-                                If you have any queries about recruitments, vacancies, or anything else, our team is
-                                ready to response all your queries.
-                            </p>
                         </div>
-                        <div class="widget_nav_menu clearfix">
-                            <h3 class="widget-title">Overseas Jobs</h3>
-                            <ul class="menu-footer-quick-links links-1">
+                        <div class="footer-one__links-box">
+                            <ul class="footer-one__links-list">
                                 <li>
-                                    <a href="{{ route('about.index') }}">
+                                    <a href="{{ route('home') }}" style="color: white;">
+                                        Home
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('about.index') }}" style="color: white;">
                                         Our Company
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('ceo_message') }}">
+                                    <a href="{{ route('ceo_message') }}" style="color: white;">
                                         President's Message
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('team') }}">
+                                    <a href="{{ route('team') }}" style="color: white;">
                                         Professional Team
                                     </a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('cv.index') }}">
-                                        Submit CV
+                                    <a href="#" target="_blank" style="color: white;">
+                                        Company Profile
                                     </a>
                                 </li>
-                            </ul>
-                        </div>
-                        <div class="widget_nav_menu clearfix">
-                            <h3 class="widget-title">Solutions</h3>
-                            <ul class="menu-footer-quick-links links-2">
+
                                 @foreach ($countries as $country)
                                     <li class="mega-menu-item">
-                                        <a href="{{ route('job.show', $country->id) }}">
+                                        <a href="{{ route('job.show', $country->id) }}" style="color: white;">
                                             {{ $country->country ?? '' }}
                                         </a>
                                     </li>
                                 @endforeach
-
-                                <li class="mega-menu-item">
-                                    <a href="{{ route('contact.index') }}" class="mega-menu-link">
-                                        Contact Us
-                                    </a>
-                                </li>
                             </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 col-md-6 wow animated fadeInUp" data-wow-delay="0.3s">
+                    <div class="footer-one__single footer-one__links">
+                        <div class="title-box">
+                            <h3>
+                                Google Map
+                            </h3>
+                        </div>
+                        <div class="footer-one__links-box">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-3 wow animated fadeInUp" data-wow-delay="0.4s">
+                    <div class="footer-one__single footer-one__newsletter">
+                        <div class="title-box">
+                            <h3>Facebook</h3>
+                        </div>
+                        <div class="footer-one__newsletter-box">
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="bottom-footer-text copyright">
+
+    <div class="footer-one__bottom">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <span class="cpy-text">
-                        2023 All Rights Reserved.
-                    </span>
+                <div class="col-xl-12">
+                    <div class="footer-one__bottom-inner">
+                        <div class="footer-one__bottom-left">
+                            <div class="title-box">
+                                <p>Social </p>
+                            </div>
+                            <div class="social-links">
+                                <ul>
+                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                                    <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="footer-one__bottom-right">
+                            <p>
+                                ©{{ now()->year }}
+                                All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
 </footer>

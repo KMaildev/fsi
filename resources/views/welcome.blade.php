@@ -109,7 +109,7 @@
 
                         <div class="about-three__content-text4">
                             <div class="img-box">
-                                <img src="{{ asset('assets/images/shapes/about-v3-shape2.png') }}" alt="#">
+                                <img src="{{ asset('data/logo.jpg') }}" alt="#" style="width: 60px;">
                             </div>
                             <div class="text-box">
                                 <p>
@@ -394,6 +394,11 @@
         </div>
     </section>
 
+    <style>
+        .projects-one--two::before {
+            height: 1200px !important;
+        }
+    </style>
     <section class="projects-one projects-one--two">
         <div class="shape5">
             <img src="{{ asset('assets/images/shapes/projects-v1-shape5.png') }}" alt="#">
@@ -534,7 +539,6 @@
             </div>
         </div>
     </section>
-
 
     <section class="blog-one">
         <div class="blog-one__bg"

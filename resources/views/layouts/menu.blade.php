@@ -5,7 +5,10 @@
 
                 <div class="main-header-two__top-left">
                     <div class="logo-two">
-                        <img src="{{ asset('assets/images/resources/logo-2.png') }}" alt="#">
+                        <a href="{{ route('home') }}">
+                            <img src="{{ asset('data/weblogo.png') }}" alt="Fore Signal Int'l Services Co.,Ltd"
+                                style="width: 500px;">
+                        </a>
                     </div>
 
                     <div class="main-header__contact-info">
@@ -41,19 +44,6 @@
                                     </div>
                                 </div>
                             </li>
-
-                            <li>
-                                <div class="inner">
-                                    <div class="icon-box">
-                                        <span class="icon-clock2"></span>
-                                    </div>
-                                    <div class="text-box">
-                                        <p>Sunday - Closed</p>
-                                        <h4>Mon - Sat(9.00 - 5.00) </h4>
-                                    </div>
-                                </div>
-                            </li>
-
                         </ul>
                     </div>
                 </div>

@@ -34,13 +34,13 @@
 
 
             <div class="main-slider-one__single">
-                <div class="image-layer" style="background-image:url({{ asset('data/slider/1.jpg') }})">
+                <div class="image-layer" style="background-image:url({{ asset('data/slider/2.jpg') }})">
                 </div>
 
                 <div class="gradient-bg"
                     style="background-image: url({{ asset('assets/images/backgrounds/slider-v2-gradient-bg.png') }});">
                 </div>
-                
+
                 <div class="shape2">
                     <img src="{{ asset('assets/images/shapes/slider-v2-shape1.png') }}" alt="#">
                 </div>
